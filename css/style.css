@@ -1,0 +1,360 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+.html {
+  overflow-x: auto;
+}
+
+.body {
+  overflow-x: auto;
+}
+.nowrap {
+    white-space: nowrap;
+}
+
+
+
+.topbar {
+    background-color:#ff8142;
+    font-family: 'Ruda', sans-serif;
+    padding-top: 10px;
+}
+.topbar a:link{
+    color:white;
+    text-decoration:none;
+}
+
+.navbar {
+    font-family: 'Ruda', sans-serif;
+    font-weight: bold;
+    padding-top:20px;
+    color:black;
+}
+.navbar a:link{
+    color:black;
+    text-decoration:none;
+}
+
+.title {
+    font-family: 'Ruda', sans-serif;
+    text-align: left;
+}
+
+.banner{
+    background-image: url("../images/pet.jpg");
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner p{
+    padding-top:40px;
+    font-size: 1.2rem;
+    color:white;
+    text-align:left;
+    font-family: 'Actor', sans-serif;
+}
+.banner h1{
+    padding-top:80px;
+    text-align:left;
+    font-size: 2.8rem;
+        color:white;
+    font-family: 'Actor', sans-serif;
+
+    font-weight: 500;
+}
+.banner button {
+    background-color:#ff8142;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:10px;
+    height:30px;
+    width:90px;
+    margin-right:100%;
+    cursor:pointer;
+}
+/*
+.sqr-card1 {
+
+    border:solid;
+    border-color:#ff8142;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    background-color:white;
+    color:white;
+    margin:10px;
+
+    
+}*/
+
+
+.square-big1 {
+    background-color: #fff2ff;
+    border: solid;
+    border-color: #ffd4ff;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    padding-bottom: 300px;
+    margin-top: 100px;
+}
+
+.square-big1 button {
+    background-color:#ff8142;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:10px;
+    height:30px;
+    width:90px;
+    margin-right:100%;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    cursor:pointer;
+}
+
+.site-icon {
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  top: 100px;
+  right: 12%;
+}
+
+.footer{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  margin-top: 50px;
+}
+
+
+.footer-text h4 {
+    color:white;
+    margin-top :20px;
+    margin-bottom:10px;
+    font-size:20px;
+    text-align:left;
+    font-family: perpetua;
+}
+.footer-text p{ 
+    border-radius: 20px;
+    overflow: hidden;
+    padding:5px; 
+    text-align:left;
+    text-decoration:none;
+    color:#ff8142;
+    font-family: perpetua;
+}
+.footer-text a:link{
+    color:black;
+    text-decoration:none;
+}
+
+.footer-text-white h4 {
+    color:white;
+    margin-top :20px;
+    margin-bottom:10px;
+    font-size:20px;
+    text-align:left;
+    font-family: perpetua;
+}
+
+.footer-text-white p{ 
+    border-radius: 20px;
+    overflow: hidden;
+    padding:5px; 
+    text-align:left;
+    text-decoration:none;
+    color:white;
+    font-family: perpetua;
+}
+.footer-text-white ul {
+    
+    border-radius: 20px;
+    overflow: hidden;
+    padding:5px; 
+    text-align:left;
+    text-decoration:none;
+    color:grey;
+    list-style:none;
+    font-family: perpetua;
+}
+
+.footer-text-white button {
+    background-color:#ff8142;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:15px;
+    height:30px;
+    width:90px;
+    margin-right:60%;
+    cursor:pointer;
+}
+.footer-text-white form {
+    
+    overflow: hidden;
+    padding:5px; 
+    text-align:left;
+    text-decoration:none;
+    color:grey;
+    list-style:none;
+    font-family: perpetua;
+}
+#fname {
+    color:lightgray;
+    background-color:gray;
+    border-radius:6px;
+    font-size:0.9rem;
+    margin-bottom:8px;
+    
+
+}
+#email {
+    color:lightgray;
+    background-color:gray;
+    border-radius:6px;
+    font-size:0.9rem;
+    margin-bottom:8px;
+
+
+}
+
+.icons {
+    margin-top:20px;
+    margin-right:100%;
+    display:inline-block;
+    white-space:nowrap;
+    color:grey;
+    cursor:pointer;
+}
+
+.bottombar {
+    background-color:black;
+    font-family:perpetua;
+    border-top:groove;
+    padding:20px;
+    border-color:#2b2b2b;
+    color:lightgray;
+}
+.petfind-label h6{
+    font-family: 'Ruda', sans-serif;
+    font-size: 30px;
+    background-color: #ff9966;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 42px;
+    margin-top: 100px;
+}
+
+
+.petfind-label button {
+    background-color:#943100;
+    color:white;
+    border:none;
+    border-radius:25px;
+    font-size:10px;
+    height:30px;
+    width:90px;
+    margin-right:100%;
+    position: absolute;
+    top: 160px;
+    left: 40%;
+    cursor:pointer;
+}
+
+
+
+
+
+.petfind-label2 h6{
+    font-family: 'Ruda', sans-serif;
+    font-size: 35px;
+    background-color: white;
+    border: solid;
+    border-color: #ff8142;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+.box{
+    position: relative;
+    margin-bottom: 200px;
+    margin-top: 10px;
+}
+
+
+
+.zero p{
+    padding-top: 70px ;
+    font-size: 30px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+    margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image: radial-gradient(110% 20% at bottom, transparent 50%, #fff 51%);
+          mask-image: radial-gradient(110% 50% at bottom, transparent 50%, #fff 51%);
+
+}
+
+.cardcontainer {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ff8142;
+  padding: 2px 16px;
+}
+
+
+.planning {
+    background-color: #f0f6ff;
+    font-family: 'Ruda', sans-serif;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+.planning p{
+    font-size: 10px;
+}
+.planning button{
+    border-radius: 20px;
+    width: 170px;
+    height: 40px;
+    border: solid;
+    border-color: white;
+    background-color: #f0f6ff;
+}
+
+.planning button:hover{
+    border-radius: 20px;
+    width: 170px;
+    height: 40px;
+    color: white;
+    background-color: #ff8142 ;
+}
